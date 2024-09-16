@@ -1,6 +1,6 @@
 # Como conectar MySQL con Next.js
 
-# Instalar el paquete (driver) mysql2 para conectar MySQL con Next.js
+##### Instalar el paquete (driver) mysql2 para conectar MySQL con Next.js
 
     npm install --save mysql2
 
