@@ -84,9 +84,9 @@ Con esta guía, deberías poder conectar tu aplicación Next.js con una base de 
 
 La función `query` recibe un objeto con dos propiedades:
 
-- query (String): La consulta SQL a ejecutar, como `"SELECT * FROM tbl_empleados"`
-- values (Array, opcional): Un array de valores para reemplazar marcadores de posición en la consulta.
-- Se inicializa como un array vacío ([]) por defecto, lo que evita errores si no se proporcionan valores. Esto ayuda a prevenir inyecciones SQL.
+- **query** (String): La consulta SQL a ejecutar, como `"SELECT * FROM tbl_empleados"`
+- **values** (Array, opcional): Un array de valores para reemplazar marcadores de posición en la consulta.
+- Se inicializa como un **array vacío ([])** por defecto, lo que evita errores si no se proporcionan valores. Esto ayuda a **prevenir inyecciones SQL.**
 
 #### Sin condiciones (todos los registros):
 
