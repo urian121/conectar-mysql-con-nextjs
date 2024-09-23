@@ -23,7 +23,8 @@ Ejecuta el siguiente comando para instalar el driver MySQL:
 ### 4. Correr el proyecto
 
     npm run dev
-    Luego, revisa tu navegador en http://localhost:3000.
+    Luego, revisa tu navegador en http://localhost:3000
+    http://localhost:3000/api/empleados
 
 ## Mis Notas
 
@@ -77,7 +78,9 @@ Con esta guía, deberías poder conectar tu aplicación Next.js con una base de 
 3. **Claridad**: Se han añadido explicaciones donde es necesario para ayudar a los usuarios a entender mejor cada sección.
 4. **Consistencia**: Se ha mantenido un tono profesional y claro a lo largo del documento.
 
-## Que significa `export async function query({ query, values = [] }) {}`
+## Que significa
+
+`export async function query({ query, values = [] }) {}`
 
 La función `query` recibe un objeto con dos propiedades:
 
