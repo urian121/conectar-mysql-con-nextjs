@@ -1,11 +1,11 @@
 "use client";
-// Importando los Hooks de React
+// Importando useEffect y useState de los Hooks de React
 import { useEffect, useState } from "react";
 export default function MiData() {
   const [data, setData] = useState(null); // Estado para almacenar los datos
   const [error, setError] = useState(null); // Estado para manejar los errores
 
-  // Función para obtener los datos, esta se ejecuta cuando se renderiza el componente o cuando cambia el estado
+  // Función para obtener los datos, esta se ejecuta cuando se renderiza el componente
   useEffect(() => {
     // Función para realizar la llamada a la API
     async function fetchData() {

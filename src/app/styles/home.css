@@ -1,0 +1,15 @@
+.my_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+}
+
+.my_logos {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  justify-items: auto;
+  flex-wrap: wrap;
+}

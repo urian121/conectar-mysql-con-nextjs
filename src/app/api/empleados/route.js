@@ -1,13 +1,14 @@
+// Importando el paquete mysql2 para la configuración de la base de datos
 import { query } from "../../../lib/config";
 
 /**
- * Metodo GET que maneja una solicitud GET que devuelve una lista de empleados predefinida en formato JSON.
- * Utiliza el objeto Response para estructurar la respuesta,
- * estableciendo el código de estado en 200 y el encabezado Content-Type para indicar que la respuesta es un JSON.
+ * El código define un Método GET que maneja una solicitud GET que devuelve una lista de empleados predefinida en formato JSON.
+ * Utiliza el objeto Response para estructurar la respuesta, estableciendo el código de estado en 200 y el
+ * encabezado Content-Type para indicar que la respuesta es un JSON.
  */
 
 export async function GET() {
-  // Crea un array de objetos que representan empleados con sus datos
+  // Creando un array de objetos que representan empleados con sus datos
   let arrayobjetos = [
     { id: 1, nombre: "Pedro", salario: 1000 },
     { id: 2, nombre: "Juan", salario: 2000 },
@@ -26,7 +27,7 @@ export async function GET() {
 /**
  * Este código maneja una solicitud GET, ejecutando una consulta a la base de datos para obtener datos de empleados.
  * Utiliza Response para devolver los resultados en formato JSON, asegurando que se incluya el encabezado Content-Type
- * para indicar que la respuesta es de tipo JSON, y maneja adecuadamente los errores, proporcionando mensajes claros.
+ * esto para indicar que la respuesta es de tipo JSON, y maneja adecuadamente los errores, proporcionando mensajes claros.
  */
 
 /*
@@ -59,7 +60,7 @@ export async function GET() {
 */
 
 /**
- * Este código utiliza NextResponse para manejar las respuestas en API routes de Next.js,
+ * Este código utiliza NextResponse el cual es un componente de Next.js, que permite manejar las respuestas en API routes de Next.js,
  * asegurando que las respuestas sean correctamente formateadas como JSON y que se incluyan los códigos de estado HTTP
  * correspondientes adecuados para facilitar el manejo de errores.
  */

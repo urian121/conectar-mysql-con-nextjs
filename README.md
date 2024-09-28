@@ -74,6 +74,18 @@ La función **`query`** recibe un objeto con dos propiedades:
 
 En resumen, **`values`** permite parametrizar las condiciones en la consulta, cuando **values = []** significa que no hay filtros aplicados en la consulta **sql**.
 
+### JSON.stringify
+
+    <pre>{JSON.stringify(data, null, 2)}</pre>
+
+**JSON.stringify** es una función de JavaScript que convierte un objeto en una cadena de texto en formato JSON.
+
+- **Primer parámetro (data):** Es el objeto o valor que quieres convertir en una cadena JSON.
+
+- **Segundo parámetro (null):** Es el replacer, que permite filtrar o transformar los valores del objeto antes de convertirlo a JSON. Si se establece en null, no se aplica ningún filtro, lo que significa que todos los valores del objeto serán incluidos tal como están.
+
+- **Tercer parámetro (2):** Controla el espaciado o indentación en la salida del JSON. Un valor de 2 indica que cada nivel de anidación se indentará con 2 espacios, lo que hace que el JSON sea más legible.
+
 ### Expresiones de Gratitud 🎁
 
     Apoya el proyecto dejando una estrella 🙏
