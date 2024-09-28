@@ -39,7 +39,8 @@ El **App Router** permite definir las rutas y la estructura de la aplicación de
 
 En **Next.js 13**, inicialmente las rutas **API** seguían estando dentro de pages/api, pero con la introducción de la nueva estructura del **App Router** en Next.js 13.4 y posteriores, las API ahora se definen dentro de **app/api**.
 
-## Que significa `export async function query({ query, values = [] }) {}`
+## Que significa 
+`export async function query({ query, values = [] }) {}`
 
 La función **`query`** recibe un objeto con dos propiedades:
 
